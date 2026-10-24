@@ -9,12 +9,14 @@ endif()
 find_package(ament_cmake REQUIRED)
 
 
-#--------------------Start instructions to install urdf folder
+#--------------------Start instructions to install folders
 install(DIRECTORY 
   urdf
+  rviz
+  launch
   DESTINATION share/${PROJECT_NAME}/
 )
-#--------------------End instructions to install urdf folder
+#--------------------End instructions to install folders
 
 
 ament_package()
