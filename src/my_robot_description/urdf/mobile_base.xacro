@@ -72,7 +72,7 @@
         <xacro:wheel_link prefix="left"/>
 
         <!-- Left wheel and base link joint -->
-        <joint name="base_left_wheel_link" type="continuous">
+        <joint name="base_left_wheel_joint" type="continuous">
             <parent link="base_link"/>
             <child link="left_wheel_link"/>
             <!-- <origin xyz="-0.15 0.225 0" rpy="0 0 0"/> -->
