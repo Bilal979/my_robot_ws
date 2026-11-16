@@ -1,3 +1,7 @@
+## Simulation Demo
+
+![ROS 2 Differential Drive Robot Simulation](media/robot_demo.gif)
+
 # ROS 2 Differential-Drive Robot
 
 A compact ROS 2 and Gazebo Sim project demonstrating how to describe,
